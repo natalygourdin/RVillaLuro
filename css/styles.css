@@ -5,30 +5,51 @@ body{
 background-color:#fff;   
 font-family: 'Roboto', sans-serif;
 color: #fff ;
-margin: 0 auto;
+margin: 0;
+margin-bottom: 40px;
+}
+html {
+    min-height:95%;
+    position: relative;
+}
+
+.container2{
+    width: 70%!important;
+    margin: 0 auto
 }
 .container{
-    margin: 0 auto
+    margin: 0 auto!important
 }
 header{
     background-color: rgb(0, 59, 115);
     border-bottom:rgb(232, 232, 232) 0px solid;
-    height:110px;
+    height:2.1cm;
+    position: relative;
+    z-index: 999999999;
 }
 a{
     text-decoration: none;
     border:0px;
-    color:  rgb(64, 64, 64)!important;
+    color:  rgb(223, 223, 223)!important;
     text-transform: uppercase;
 }
+.bg-blue{
+    background-color: rgb(0, 59, 115);
+
+}
 a:hover{
-    color:#888!important
+    color: rgb(252, 188, 105)!important;
+    font-weight: bold;
 }
 .logo{
-    width: 130px;
+    width: 3.1cm;
+    padding: 0px!important;
+    display: inline!important;
 }
 .logo-icon{
-    width:60px;
+    width: 1.4cm;
+    display: inline!important;
+    padding: 0px!important;
     animation-iteration-count: infinite;
     animation-name: logo-anima;
     animation-duration: 10s;
@@ -36,10 +57,14 @@ a:hover{
 @keyframes logo-anima {
        100%  {transform: rotate(360deg);}
 }
+.redes{
+    padding-top: 2vh;
+}
 .bi{
-   color: rgb(255, 230, 149)!important;
-   margin-right: 10px;
-   font-size: 24px!important;
+   color: rgb(224, 224, 224)!important;
+   margin-right: 1em;
+   margin-top: 12em!important;;
+   font-size: 1.1rem!important;
 }
 .bi:hover{
     color:#888!important
@@ -72,15 +97,16 @@ nav ul li a {
 .nav-link{
     color: #ffff!important;
     padding-top: 10px;
-    font-size: 19px;
+    font-size: 13px;
     font-weight: 500;
-font-family: 'roboto', sans-serif;
+font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
 
 
 }
 
 .nav-link:hover{
-    color: #aaa!important;
+    color: rgb(252, 188, 105)!important;
+    font-weight: bold;
 
 }
 footer a{
@@ -89,21 +115,209 @@ footer a{
 
 footer {
     background-color: rgb(0, 59, 115);
-
     color:#fff;
     z-index: 9999999!important;
     bottom: 0px;
     left: 0;
-    height: 120px;
-position: absolute;
+    height: 3.4cm;
+    position: absolute;
     bottom: -60px;
     width: 100%;
+    font-size: 0.8vw!important;;
 }
-html {
-    min-height:95%;
-    position: relative;
+
+  h2, h3, h4, h5, h6, h1{
+    text-transform: initial;
+    color: rgb(0, 59, 115);
+    font-weight: bold;
   }
-  body {
-    margin: 0;
-    margin-bottom: 40px;
+  .s1{
+    min-height: 400px;
+
+  }
+  .col-noticia{
+    margin-top:30px ;
+    margin-bottom: 20px;
+    height:55vh;
+    transition: all 0.5s ease-out;
+
+  }
+  .s1 .img{
+    width: 100%;
+    height:55vh;
+    background-size: cover  !important;
+    background-color: rgb(0, 3, 32)!important;;
+  }
+  .s1 .t1{
+    width: 100%;
+    background-color: rgba(0, 33, 66, 0.9);
+    color:#ffff;
+    position: relative;
+    top: -18vh;
+
+    border-bottom: 6px  rgb(0, 75, 181) solid;
+    padding: 1em;
+    height:18vh;
+    padding-top: 1.4em;
+    transition: all 0.5s ease-out;
+  }
+.s1 span{
+    font-size: 1.2vw;
+    font-weight: bold;
+}.leer{
+    display: block;
+    font-size: 1vw!important;
+
+}
+
+.descripcion{
+    display: block;
+        font-size: 1vw!important;
+    font-weight: 400!important;
+    text-transform: initial;
+    padding: 10px;
+    
+}
+.opacity{
+    display: block;
+    animation-duration: 10s;
+
+}
+  button{
+    background-color: rgb(0, 59, 115);
+    color: #fff;
+    border: 0px;
+  }
+ .bg-blue:hover{
+    background-color: rgb(163, 127, 29);;
+    color: #fff!important;
+
+ }
+  .f1{
+    font-size: 0.8rem;
+  }
+  .f2{
+    font-size: 1.2rem;
+  }
+
+ .f3{
+    font-size: 1.7rem;
+  }
+
+  .f4{
+    font-size: 1.9rem;
+  }
+  #merivideo2 { 
+  
+    
+   opacity: 1;
+   background-image: url('../img/fondo-planta.jpg');
+   background-size: 100%;
+   background-position: 0px -150px;
+  }
+
+  
+
+.carousel {
+  height:90vh;
+  min-height: 350px;
+  background-color: transparent!important;
+
+}
+.cap{
+  vertical-align: middle!important;
+  position: fixed;
+  z-index: 99999;
+  top: 15vh;
+  left: 15vh;
+  padding: 50px;
+  width: 30vw;
+  border-radius: 10px;
+
+}
+.cap h1{
+    font-size: 2.5vw!important;
+    color:rgb(255, 204, 101)!important;
+
+}
+.cap p{
+font-size: 1vw!important;
+line-height: 2vw;
+letter-spacing: 0.5px;
+text-shadow: 1px 1px 2px #000000;
+
+}
+/* INTERNAS */
+.newletter .img{
+    width: 100%;
+    height:30vh!important;
+    background-size: cover  !important;
+    background-color: rgb(0, 3, 32)!important;;
+  }
+
+.noticia .img{
+    width: 100%;
+    height:700px!important;
+    background-size: cover  !important;
+
+  }
+.noticia p{
+line-height: 30px; 
+}
+.encabezados{
+    color:#fff
+}
+.titulo-not{
+    text-transform: capitalize !important;
+    font-size: 35px!important;
+    line-height: 45px;
+    margin-bottom: 0px!important;
+    padding:30px 50px 40px 10px!important;
+    background-color: rgba(255, 255, 255, 1) !important;;
+    padding:40px 50px 20px 0px!important;
+    width:630px!important; 
+    position: relative !important;
+}
+.bajada{
+  color: rgb(145, 145, 145);
+  letter-spacing: 1px;
+    font-size: 14px!important;
+    line-height: 20px!important;;
+    margin-bottom: 0px!important;
+  }
+
+.descripcion-noticia{
+    letter-spacing: 0.5pt;
+    line-height: 18px;
+    background-color: rgba(255, 255, 255, 1) !important;;
+    padding:20px 50px 20px 0px!important;
+    width:630px!important; 
+    position: relative !important;
+  }
+  
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+  @media screen and (max-width: 1900px){
+    header{
+        height:1.5cm;
+    }
+  
+    .logo{
+        width: 2.2cm;
+
+    }
+    .logo-icon{
+        width: 0.9cm;
+    }
+
+
   }
