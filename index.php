@@ -20,7 +20,7 @@ if ($resultado->num_rows>0) {
    include('templates/head.php')
   ?>
 
-<body>
+<body style="background: #000!important">
 
 <?php  include('templates/header.php');  ?>
 
