@@ -36,9 +36,11 @@ if ($resultado->num_rows>0) {
       <svg version="1.1" id="Capa_1" class="planta" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1052 1772" style="enable-background:new 0 0 1052 1772;" xml:space="preserve">
 
-<g>
-	<path class="p1" d="M484,1746c0,0-6-344-35-570C424.41,984.41,190,110,186,98s16-42,43-14"/>
-</g>
+    <defs>
+        <linearGradient id="lgrad-p" gradientTransform="rotate(75)"><stop offset="45%" stop-color="#4fa82f"></stop><stop offset="99%" stop-color="#7ea605"></stop></linearGradient>
+        <linearGradient id="lgrad-s" gradientTransform="rotate(75)"><stop offset="45%" stop-color="#2eff70"></stop><stop offset="99%" stop-color="#00872b"></stop></linearGradient>
+        <linearGradient id="lgrad-g" gradientTransform="rotate(75)"><stop offset="45%" stop-color="#aec200"></stop><stop offset="99%" stop-color="#d4e640"></stop></linearGradient>
+      </defs>
 <g>
 	<path class="p2" d="M477,1547c0,0-260-90-278-270l0,0c230,72,275.49,229.04,275.49,229.04"/>
 	<path class="p2" d="M477,1532c0,0-154-105-278-255"/>
@@ -60,9 +62,7 @@ if ($resultado->num_rows>0) {
 	<path class="p6" d="M443,1161c0,0,148.85-144.64,174-219"/>
 	<path class="p6" d="M443,1138c0,0,24.13-74.77,91.04-123.56c66.91-48.79,82.48-72.59,82.48-72.59S573.78,1099.92,453,1182"/>
 </g>
-<g>
-	<path class="p7" d="M438,1107c0,0,1-379,345-724c0,0,97-122,118-169"/>
-</g>
+
 <g>
 	<path class="p8" d="M741,423c-32-64,25-264,25-264s58,150-6,248"/>
 	<path class="p8" d="M766,177c0,0-29,209-17,237"/>
@@ -82,6 +82,12 @@ if ($resultado->num_rows>0) {
 <g>
 	<path class="p12" d="M268,396c4.32-85.25,103.25-133.5,103.25-133.5S333.77,397.77,273,424"/>
 	<path class="p12" d="M268,409c0,0,81.94-125.72,103.55-146.49"/>
+</g>
+<g>
+	<path class="p7" d="M438,1107c0,0,1-379,345-724c0,0,97-122,118-169"/>
+</g>
+<g>
+	<path class="p1" d="M484,1746c0,0-6-344-35-570C424.41,984.41,190,110,186,98s16-42,43-14"/>
 </g>
 </svg>
 

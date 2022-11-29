@@ -208,160 +208,204 @@ footer {
     font-size: 1.9rem;
   }
   #merivideo2 { 
-  
-    
-   opacity: 1;
+    opacity: 1;
    background-image: url('../img/fondo-planta.jpg');
    background-size: 100%;
-   background-position: 0px -150px;
+   background-position: 0px -420px;
+  }
+  .carousel {
+    height:90vh;
+    min-height: 350px;
+    background-color: transparent!important;
+  
+  }
+  .cap{
+    vertical-align: middle!important;
+    position: relative;
+    z-index: 99999;
+    top: 55vh;
+    left: -2vw;
+    /* padding: 40px 150px; */
+    width: 35vw;
+    border-radius: 10px;
+    background-color: rgba(50, 50, 50, 0.0);
+    text-align: center;
+  
+  }
+  .cap h1{
+      font-size: 2.5vw!important;
+      color:rgb(251, 240, 87)!important;
+  
+  }
+  .cap p{
+  font-size: 1vw!important;
+  line-height: 2vw;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 2px #000000;
+  
   }
 .planta{
-  width: 300px;
+  width: 360px;
   fill: none;
-  stroke-width: 10px;
-  stroke:#fff;
-  position: fixed;
-  top:20%;
+  stroke-width: 15pt;
+  stroke:url(#lgrad-g) green;
+  position: relative;
+  top: -20vh;
   left: 38%;
 }
-  .planta .p1{
-    stroke:#fff;
-      animation: dash 2s ease  ; 
-     stroke-dasharray: 100%;
 
+.p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover, .p7:hover, .p8:hover, .p9:hover, .p10:hover, .p11:hover, .p12:hover{
+  animation-play-state:paused;
+}
+
+  .planta .p1{
+      animation: tallo 2s ease   ; 
+     stroke-dasharray: 129%;
+     stroke:url(#lgrad-p) green;
     }
   .planta .p2{
-    stroke:rgb(255, 255, 255);
-    animation: dash 6s ease  ; 
+    animation: dash 3s ease  ; 
     stroke-dasharray: 100%;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     stroke-dashoffset: 2100;
-    stroke-width: 10px
+    stroke-width: 0px;
+    ANIMATION-FILL-MODE:forwards;
+    stroke:url(#lgrad-g) green;
 
 
     }
-    .planta .p5{
-      stroke:rgb(255, 255, 255);
+    .planta .p5{    
+      stroke:url(#lgrad-g) green;
       stroke-dashoffset: 0%;
-      animation: dash 6s ease  ; 
+      animation: dash 3s ease   ; 
       stroke-dasharray: 100%;
       animation-delay: 2s;
       stroke-dashoffset: 2100;
-      stroke-width: 10px
-  
+      stroke-width: 0px;
+      ANIMATION-FILL-MODE:forwards;
+
       }
 
   .planta .p6{
-    stroke:rgb(241, 0, 0);
     stroke-dashoffset: 0%;
-    animation: dash 5s ease  ;  
+    animation: dash 3s ease  ;  
+    stroke-dasharray: 100%;
+    animation-delay: 2.5s;
+    stroke-dashoffset: 2100;
+    stroke-width: 0px;
+    ANIMATION-FILL-MODE:forwards;
+
+    }
+  .planta .p3{   
+    animation: dash 3s ease  ;     
     stroke-dasharray: 100%;
     animation-delay: 3s;
     stroke-dashoffset: 2100;
-    stroke-width: 10px;
+    stroke-width:0px;
 
-    }
-  .planta .p3{
-    stroke:#fff;
-    animation: dash 5s ease  ;     
-    stroke-dasharray: 100%;
-    animation-delay: 4s;
-    stroke-dashoffset: 2100;
-    stroke-width:10px
-
+    ANIMATION-FILL-MODE:forwards;
 
     }
   .planta .p4{
-    stroke:rgb(250, 250, 250);
     stroke-dashoffset: 0%;
-    animation: dash 5s ease  ; 
+    animation: dash 3s ease  ; 
     stroke-dasharray: 100%;
-    animation-delay: 5s;
+    animation-delay: 3.5s;
     stroke-dashoffset: 2100;
-    stroke-width: 0px;
+    stroke-width:0px;
+    ANIMATION-FILL-MODE:forwards;
+
     }
 
-  .planta .p7{
-    stroke:#fff;
+  .planta .p7{    
     stroke-dashoffset: 0%;
-    animation: dash 5s ease  ;
-    animation-delay: 8s;
+    animation: tallo 3s ease  ;
+    stroke-dasharray: 100%;
+    animation-delay: 4s;
+    stroke-dashoffset: 2100;
+    stroke-width: 0px;
+    ANIMATION-FILL-MODE:forwards;
 
     }
   .planta .p8{
-    stroke:#fff;
+    stroke:url(#lgrad-g) green;
     stroke-dashoffset: 0%;
-    animation: dash 5s ease  ; 
-    animation-delay: 9s;
+    animation: dash 3s ease  ; 
+    stroke-dasharray: 100%;
+    animation-delay: 5s;
+    stroke-dashoffset: 2100;
+    stroke-width: 2px;
+    ANIMATION-FILL-MODE:forwards;
 
     }
   .planta .p9{
-    stroke:#fff;
+    stroke:url(#lgrad-g) green;
     stroke-dashoffset: 0%;
-    animation: dash 5s ease  ;  
-    animation-delay: 10s;
+    animation: dash 3s ease  ;  
+    stroke-dasharray: 100%;
+    animation-delay: 5.5s;
+    stroke-dashoffset: 2100;
+    stroke-width: 2px;
+    ANIMATION-FILL-MODE:forwards;
 
     }
   .planta .p10{
-    stroke:#fff;
     stroke-dashoffset: 0%;
-    animation: dash 5s ease  ;  
-    animation-delay: 11s;
+    animation: dash 3s ease  ;  
+    stroke-dasharray: 100%;
+    animation-delay: 6s;
+    stroke-dashoffset: 2100;
+    stroke-width: 2px;
+    ANIMATION-FILL-MODE:forwards;
 
     }
   .planta .p11{
-    stroke:#fff;
     stroke-dashoffset: 0%;
-    animation: dash 5s ease  ; 
-    animation-delay: 12s;
+    animation: dash 3s ease  ; 
+    stroke-dasharray: 100%;
+    animation-delay: 6.5s;
+    stroke-dashoffset: 2100;
+    stroke-width: 2px;
+    ANIMATION-FILL-MODE:forwards;
 
     }
-  .planta .p12{    stroke:#fff;
+  .planta .p12{   
     stroke-dashoffset: 0%;
-    animation: dash 5s ease  ;
-    animation-delay: 13s;
+    animation: dash 3s ease  ;
+    stroke-dasharray: 100%;
+    animation-delay: 7s;
+    stroke-dashoffset: 2100;
+    stroke-width: 2px;
+    ANIMATION-FILL-MODE:forwards;
 
+    }
+
+    @keyframes tallo {
+      from {
+        stroke-dashoffset: 2000;     
+      }
+      to {
+        stroke-dashoffset: 0;
+        stroke-width: 15pt;
+  
+      }
     }
 
   @keyframes dash {
     from {
-      stroke-dashoffset: 1206;
+      stroke-dashoffset: 1206;          
+      fill:url(#lgrad-s) green;
+     opacity: 0;
     }
     to {
       stroke-dashoffset: 0;
-      stroke-width: 10px;
+      stroke-width: 5pt;
+      fill:url(#lgrad-s) green;
+      opacity: 1;
 
     }
   }
-.carousel {
-  height:90vh;
-  min-height: 350px;
-  background-color: transparent!important;
 
-}
-.cap{
-  vertical-align: middle!important;
-  position: fixed;
-  z-index: 99999;
-  top: 15vh;
-  left: 15vh;
-  padding: 50px;
-  width: 30vw;
-  border-radius: 10px;
-
-}
-.cap h1{
-    font-size: 2.5vw!important;
-    color:rgb(255, 204, 101)!important;
-
-}
-.cap p{
-font-size: 1vw!important;
-line-height: 2vw;
-letter-spacing: 0.5px;
-text-shadow: 1px 1px 2px #000000;
-
-}
 /* INTERNAS */
 .newletter .img{
     width: 100%;
