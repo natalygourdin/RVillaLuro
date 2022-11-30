@@ -3,7 +3,7 @@
 
 body{
   background-color: rgb(255, 255, 255);
-font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
 color: #fff ;
 margin: 0;
 margin-bottom: 40px;
@@ -23,7 +23,7 @@ html {
 header{
     background-color: rgb(0, 59, 115);
     border-bottom:rgb(232, 232, 232) 0px solid;
-    height:8vh;
+    height:7vh;
     width: 100%;
     position: relative;
     z-index: 999999999;
@@ -46,12 +46,12 @@ a:hover{
     font-weight: bold;
 }
 .logo{
-    width: 3.1cm;
+    width: 11vh;
     padding: 0px!important;
     display: inline!important;
 }
 .logo-icon{
-    width: 1.4cm;
+    width:5vh;
     display: inline!important;
     padding: 0px!important;
     animation-name: logo-anima;
@@ -75,8 +75,11 @@ a:hover{
    margin-top: 12em!important;;
    font-size: 1.1rem!important;
 }
-.bi:hover{
-    color:#888!important
+i:hover{
+    color:rgb(212, 183, 115)!important;
+    animation-name: logo-anima;
+    animation-duration: 7s;
+
 }
 nav{
     background: transparent!important;
@@ -108,7 +111,7 @@ nav ul li a {
     padding-top: 10px;
     font-size: 13px;
     font-weight: 500;
-font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+font-family: 'Lato', sans-serif;
 
 
 }
@@ -136,7 +139,7 @@ footer {
 }
 
   h2, h3, h4, h5, h6, h1{
-    text-transform: initial;
+    text-transform: initial!important;
     color: rgb(0, 59, 115);
     font-weight: bold;
   }
@@ -250,7 +253,7 @@ footer {
   .cap h1{
       font-size: 2vw!important;
       color:rgb(255, 255, 255)!important;
-      text-shadow: 1px 1px 1px #000000;
+      font-family: 'Vollkorn', serif;
 
   }
   .cap p{

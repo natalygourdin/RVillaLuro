@@ -29,7 +29,7 @@ if ($resultado->num_rows>0) {
     
     <div class="carousel "  id="merivideo2" >
        <div class="container cap"> 
-        <h1>Bienvenidos</h1>
+        <h1>-- Bienvenidos --</h1>
         <p class="text-light"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
       </div> 
@@ -96,7 +96,7 @@ if ($resultado->num_rows>0) {
   </div>
   <section class="bg-light text-dark s1 pt-3 pb-5" style="position: relative; z-index:99999">
     <div class="container2 text-center m-auto mt-5 pb-4">
-    <h4 style="text-transform: uppercase"><i class="text-secondary f2 bi-newspaper mx-2"></i> ÚLTIMAS NOTICIAS</h4>
+    <h4 style="text-transform: initial"><i class="text-secondary f2 bi-newspaper mx-2"></i> ÚLTIMAS NOTICIAS</h4>
     <br><br>
     <div class="row   d-flex justify-content-between">
    

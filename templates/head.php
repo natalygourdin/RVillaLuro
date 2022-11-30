@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Vollkorn:ital,wght@1,600&display=swap" rel="stylesheet">
     <title>Rotary</title>
     <link rel="icon" type="image/png" href="favicon.ico"/>
     <meta name="locality" content="">
