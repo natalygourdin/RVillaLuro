@@ -29,10 +29,26 @@ if ($resultado->num_rows>0) {
     
     <div class="carousel "  id="merivideo2" >
        <div class="container cap"> 
-        <h1>-- Bienvenidos --</h1>
+        <h1>
+            <div class="Iam">
+               <b>
+               <div class="innerIam">
+               Bienvenidos<br /> 
+               Welcome<br />
+               Bienvenue<br />
+               Benvenuto<br />
+               Bem-vinda<br />
+               Herzlich willkommen
+                  </div>
+               </b>
+            </div>
+        </h1>
         <p class="text-light"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
       </div> 
+
+     <img class="tierra" src="./img/tierra.png" alt="">
+  
       <svg version="1.1" id="Capa_1" class="planta" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1052 1772" style="enable-background:new 0 0 1052 1772;" xml:space="preserve">
 
